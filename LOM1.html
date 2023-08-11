@@ -2,22 +2,94 @@
 <head>
     <title>Lord of Mysteries</title>
     <meta charset = "utf-8">
+    <style>
+        h2{
+            text-align: center;
+        }
+        body{
+            margin: 0;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            text-align: center;
+        }
+        /* img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        } */
+        h1{
+            text-align: center;
+            font-size: 50px;
+            border-bottom:3px solid gray;
+            margin: 0;
+            padding: 20px;
+        }
+        span {
+            padding: 15px;
+        }
+        #grid ol{
+            margin:0;
+            padding: 20px;
+            padding-left: 35px;
+            width:180px;
+            border-right: 2px solid gray;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 180px 1fr 319px;
+        }
+        #article-main{
+            padding-left: 80px;
+            padding-top: 20px;
+            padding-bottom: 137px;
+        }
+        div.explain-img {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            width: 70%;
+            background-color: #E0E0E0;
+            margin: 38px auto 31px 23px;
+        }
+        div.container {
+            text-align: left;
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <p><a href = "index.html" title = "BACK">돌아가기</a></p>
-    <h2>Introduction</h2>
-    <p>
-        <a href = "https://lordofthemysteries.fandom.com/wiki/Lord_of_Mysteries_(Novel)#Volume_5:_Red_Priest" title = "Lord of Mysteries">신비의 제왕 위키 원문</a>
-    </p>
-    <p>
-        Lord of Mysteries is a western fantasy (xuanhuan) web novel written by the Chinese author Cuttlefish That Loves Diving and published on QiDian.
-        The web novel was officially translated by CKTalon and published on Webnovel.
-    </p>
-    <img src="LOM1이미지.jpg", width = "70%">
-    <p>
-        In the waves of steam and machinery, who could achieve extraordinary? In the fogs of history and darkness, who was whispering? I woke up from the realm of mysteries and opened my eyes to the world.
-    </p><p>
-        Firearms, cannons, battleships, airships, and difference machines. Potions, divination, curses, hanged-man, and sealed artifacts… The lights shone brightly, yet the secrets of the world were never far away. This was a legend of the “Fool”.
-    </p>
-
+    <h1><a href = "index.html">Lord of Mysteries (Webnovel)</a></h1>
+    <div id = "grid">
+        <ol>
+            <li><a href = "LOM1.html">Introduction</a></li>
+            <li><a href = "LOM2.html">Full list of translated chapters</a></li>
+            <li><a href = "LOM3.html">Reseprion</a></li>
+            <li><a href = "LOM4.html">References</a></li>
+            <li><a href = "LOM5.html">Site Navigation</a></li>
+        </ol>
+        <div id = "article-main">
+            <span><a href = "index.html" title = "BACK">돌아가기</a></span>
+            <span><a href = "https://lordofthemysteries.fandom.com/wiki/Lord_of_Mysteries_(Novel)#Volume_5:_Red_Priest" title = "Lord of Mysteries">신비의 제왕 위키 원문</a></span>
+            <h2>Introduction</h2>
+            <p>
+                Lord of Mysteries is a western fantasy (xuanhuan) web novel written by the Chinese author Cuttlefish That Loves Diving and published on QiDian.
+                The web novel was officially translated by CKTalon and published on Webnovel.
+            </p>
+            <div class = "explain-img">               
+                <img src="LOM1이미지.jpg", width = "100%">
+                <div class="container">
+                    <p>Cinque Terre</p>
+                </div>
+            </div>
+            <p>
+                In the waves of steam and machinery, who could achieve extraordinary? In the fogs of history and darkness, who was whispering? I woke up from the realm of mysteries and opened my eyes to the world.
+            </p><p>
+                Firearms, cannons, battleships, airships, and difference machines. Potions, divination, curses, hanged-man, and sealed artifacts… The lights shone brightly, yet the secrets of the world were never far away. This was a legend of the “Fool”.
+            </p>
+        </div>
+        <div id = "article-side">
+        </div>
+    </div>
 </body>
